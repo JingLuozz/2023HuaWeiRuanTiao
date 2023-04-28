@@ -912,7 +912,7 @@ public:
 
 		*/
 		if(mapkind == 3) {
-			// 3类地图红方和蓝方各派一个机器人进行干扰
+			// 3类地图蓝方派两个机器人进行干扰，红方派一个进行干扰
 			// if(teamkind) rts[0].rival_policy = 1;
 			rts[0].rival_policy = 1;
 			if(teamkind == 0) rts[1].rival_policy = 1;

@@ -101,8 +101,8 @@ bool readUntilOK() {
 }
 
 int main() {
-	Init();
-	operate_init();
+	Init(); //做地图的读入
+	operate_init(); //
 	s.handleMaps();
 	s.dealDisfra();
 	s.judgemapkind();

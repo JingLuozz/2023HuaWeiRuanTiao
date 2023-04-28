@@ -4,7 +4,7 @@
 #include <fstream>
 #pragma GCC optimize(2)
 using namespace std;
-//日志文件
+//
 class Logs {
 public:
 	ofstream fp;
